@@ -36,7 +36,7 @@ public interface Queue<item> extends Iterable<item> {
 	 * 
 	 * @return removed item from the queue
 	 */
-	public item dequeuue();
+	public item dequeue();
 
 	/**
 	 * Returns size of the queue

@@ -75,7 +75,7 @@ public abstract class AbstractStackTest {
 		this.stack.push(5);
 		assertEquals(3, this.stack.size());
 	}
-	
+
 	@Test
 	public void pushPopSize() {
 		this.stack.push(15);
@@ -84,7 +84,7 @@ public abstract class AbstractStackTest {
 		this.stack.pop();
 		assertEquals(2, this.stack.size());
 	}
-	
+
 	@Test
 	public void PoptoZero() {
 		this.stack.push(15);
